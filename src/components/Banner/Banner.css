@@ -1,0 +1,15 @@
+/* VARIAVEIS CSS */
+
+:root {
+  --bg-banner: #6278f7;
+}
+
+/* ESTILIZAÇÃO DO BANNER */
+.banner {
+  background-color: var(--bg-banner);
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+}
