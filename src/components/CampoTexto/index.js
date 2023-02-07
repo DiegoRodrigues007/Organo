@@ -1,12 +1,13 @@
 // IMPORT PADRÃO
 import "./CampoTexto.css";
 
-const CampoTexto = () => {
+const CampoTexto = (props) => {
+    
   return (
     <div className="campo-texto-input">
-      <label>Nome</label>
+      <label>{props.label}</label>
       <input
-        placeholder="Digite o seu nome"
+        placeholder={props.placeholder}
       />
     </div>
   );
