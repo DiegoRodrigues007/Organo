@@ -1,5 +1,4 @@
 // IMPORT PADRÃO
-
 import "../Banner/Banner.css";
 
 function Banner() {
