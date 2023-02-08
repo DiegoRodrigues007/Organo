@@ -10,6 +10,8 @@ const CampoTexto = (props) => {
         placeholder={props.placeholder}
       />
     </div>
+
+
   );
 };
 
