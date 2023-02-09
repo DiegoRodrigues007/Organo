@@ -4,7 +4,7 @@ const ListaTimes = (props) => {
   return (
     <div className="lista-times">
       <label>{props.label}</label>
-      <select>
+      <select required={props.required}>
         {props.itens.map((itemDaLista) => (
           <option key={itemDaLista}>{itemDaLista}</option>
         ))}
